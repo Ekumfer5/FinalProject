@@ -116,7 +116,7 @@ public class MainProgram {
 			}
 		} while (validInput == false);
 
-		System.out.println("Below is the full monster(s) details, good luck, and may your party roll well. \n");
+		System.out.println("Below is the full monster details. There are " + finalEncounter.size() + " of the monster(s) below. Good luck, and may your party roll well. \n");
 
 		for (Monster monster : finalEncounter) {
 			monster.ToString();
