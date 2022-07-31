@@ -118,9 +118,7 @@ public class MainProgram {
 
 		System.out.println("Below is the full monster details. There are " + finalEncounter.size() + " of the monster(s) below. Good luck, and may your party roll well. \n");
 
-		for (Monster monster : finalEncounter) {
-			monster.ToString();
-		}
+		finalEncounter.get(0);
 	}
 
 	public static List<Monster> GetMonsterListFromXMLWithXP(int XP, MonstersFromXML monsterListIn)
